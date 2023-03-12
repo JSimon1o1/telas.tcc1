@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!----------CSS--------->
+    <link rel="stylesheet" href="/MENU/css/reset.css">
+  <body>
+    <header>
+        <!--------- colocar img antes do título e depois de Login--------->
+		<h1>BUMERBOX</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Minha Conta</a></li>
+        <li><a href="#">Relatórios</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Fornecedores</a></li>
+        <li><a href="#">Categoria</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
