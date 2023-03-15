@@ -1,0 +1,171 @@
+ /* -------------- Cabeçalho ---------------- */
+ header {
+    /*----colocar linha preta na parte de cima do header----*/
+    background-color: #967C4A;
+    height: 7rem;
+    color: white;
+  }
+ 
+  /* -------------- Corpo ---------------- */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  header h1 {
+    margin: 0;
+    margin-left: 90px;
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
+  }
+ 
+  /*------------ IMAGEM ANTES DO BUMERBOX NO CABEÇALHO -------------*/
+/*  header img {
+
+  }
+  */
+
+  #simrec {
+    margin-left: 30px;
+    height: 6rem;
+  }
+
+/*------------ FORMATAÇÃO DOS TÍTULOS -------------*/ 
+  h1 {
+    font-size: 50px;
+    font-weight: normal;
+  }
+  
+  h2{
+    color: black;
+    align-content: center;
+  }
+
+  h3{
+    font-weight: 300;
+  }
+
+  /* ------------------- Cadastro ------------------ */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  /* ------------------- Login ------------------ 
+  form {
+    margin: 0 auto;
+    margin-top: 20em;
+    width: 300px;
+    padding: 20px;
+  }
+  */
+
+  label {
+    font-size: larger;
+    /*background-color: #8b7f82;*/
+    display: block;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+  }
+  
+  /* ------------------ Caixas de Texto -------------------- */ 
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #967C4A;
+  }
+
+/* ------------------- Checkbox ------------------ */
+  input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+
+  /* ------------------ Botão -------------------- */
+  input[type="submit"] {
+    background-color: #7ee24f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10em;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+ 
+  /*--------------Img------------------*/
+  /*figure {
+
+  }
+
+
+  /*----------------- Menu --------------*/
+  nav {
+    position: absolute;
+    top: 80px;
+    width: 250px;
+    height: 900px;
+    background-color: #967C4A;
+
+    justify-content: end;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color:  #7ee24f
+  }
+  
+  li {
+    padding: 8px;
+    margin-left: 2em;
+    text-align: justify;
+    font-size: 25px;
+  }
+   
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+ /*---------------------- Página ----------------------*/
+
+ main h2 {
+  margin-left: 13em;
+}
+
+main ul {
+  list-style-type: none;
+  background-color: white;
+}
+
+main p {
+
+}
+
+main form {
+  margin-left: 90em;
+  display: flex;
+  flex-direction: column;
+}
+
+main button {
+  margin-left: 18em;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
