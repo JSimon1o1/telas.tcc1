@@ -117,24 +117,25 @@
   /*----------------- Menu --------------*/
   nav {
     position: absolute;
-    top: 80px;
+    top: 112px;
     width: 250px;
     height: 900px;
     background-color: #967C4A;
-
     justify-content: end;
   }
   
   ul {
     list-style-type: none;
-    background-color:  #7ee24f
+    background-color:  #7ee24f;
   }
   
   li {
     padding: 8px;
     margin-left: 2em;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
+    font-style: normal;
+    background-color:  #7ee24f;
   }
    
   a {
@@ -142,6 +143,21 @@
     text-decoration: none;
   }
   
+  .FormatacaoOpcaoMenu{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .FormatacaoIconeMenu{
+		width: 400px;
+    height: 100px;
+  }
+
  /*---------------------- Página ----------------------*/
 
  main h2 {
@@ -150,7 +166,7 @@
 
 main ul {
   list-style-type: none;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 main p {
