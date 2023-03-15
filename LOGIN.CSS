@@ -1,17 +1,19 @@
  
   /* -------------- Cabeçalho ---------------- */
   header {
-    /*----colocar linha preta na parte de cima do header----*/
-    background-color: #8b7f82;
-    color: #fff;
-    padding: 20px;
+    background-color: #967C4A;
+    height: 7rem;
+    color: white;
   }
   
   h1 {
-    margin: 0;
-    margin-left: 90px;
-    font-size: 38px;
+    font-size: 50px;
     font-weight: normal;
+  }
+
+  #simrec {
+    margin-left: 30px;
+    height: 6rem;
   }
 /* ------------------- Login ------------------ */
 form {
