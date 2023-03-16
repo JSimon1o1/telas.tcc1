@@ -1,4 +1,12 @@
- /* -------------- Cabeçalho ---------------- */
+EstiloPadrao.CSS
+ 
+
+/* -------------- Cabeçalho ---------------- */
+ * {
+  margin: 0;
+  padding: 0;
+ }
+ 
  header {
     /*----colocar linha preta na parte de cima do header----*/
     background-color: #967C4A;
@@ -16,8 +24,8 @@
   }
 
   header h1 {
-    margin: 0;
-    margin-left: 90px;
+    margin: 0px;
+    text-align: left;
     font-size: 38px;
     font-weight: normal;
     color: white;
@@ -30,8 +38,9 @@
   */
 
   #simrec {
+    margin-top: -25px;
     margin-left: 30px;
-    height: 6rem;
+    height: 10rem;
   }
 
 /*------------ FORMATAÇÃO DOS TÍTULOS -------------*/ 
@@ -56,21 +65,42 @@
     padding: 10px;
   }
 
-  /* ------------------- Login ------------------ 
-  form {
+  /* ------------------- Login ------------------  */
+  form h2{
     margin: 0 auto;
-    margin-top: 20em;
-    width: 300px;
+    margin-top: 3em;
     padding: 20px;
+    display: flex;
+    justify-content: center;
   }
-  */
+
+  #cadeado {
+    height: 5rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+  #boneco {
+    width: 150px;
+    height: auto;
+    margin: 0px !important;
+  }
+
+  input {
+    background-color: #967C4A;
+    margin-top: 2em;
+  }
+
+  ::placeholder {
+    color: white;
+    text-align: center;
+  }
 
   label {
     font-size: larger;
-    /*background-color: #8b7f82;*/
     display: block;
     margin-bottom: 5px;
-
     font-weight: bold;
   }
   
@@ -95,7 +125,7 @@
 
   /* ------------------ Botão -------------------- */
   input[type="submit"] {
-    background-color: #7ee24f;
+    background-color: #b3ec3a;
     color: black;
     padding: 10px 20px;
     border: none;
@@ -184,4 +214,27 @@ main button {
   display: flex;
   flex-direction: column;
   align-self: center;
+}
+
+.container-entrar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: solid 1px #967C4A;
+}
+
+.div-entrar{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#entrar{
+  margin:0px !important;
+}
+
+#folha{
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  margin: 0px !important;
 }
