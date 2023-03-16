@@ -156,12 +156,12 @@ EstiloPadrao.CSS
   
   ul {
     list-style-type: none;
-    background-color:  #7ee24f;
+    background-color:  #b08d4c;
   }
   
   li {
     padding: 8px;
-    margin-left: 2em;
+    /*margin-left: 2em;*/
     text-align: justify;
     font-size: 20px;
     font-style: normal;
@@ -186,6 +186,11 @@ EstiloPadrao.CSS
   .FormatacaoIconeMenu{
 		width: 400px;
     height: 100px;
+  }
+
+  /*Modifica a cor do item do menu quando mouse passa por cima*/
+  #li:hover{
+    background-color: #b08d4c;
   }
 
  /*---------------------- Página ----------------------*/
