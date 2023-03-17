@@ -104,6 +104,19 @@ EstiloPadrao.CSS
     font-weight: bold;
   }
   
+  /* ------------------ Formatação Label de Informações -------------------- */ 
+  #InformacaoLabel{
+    width: 50%;
+    padding: 10px;
+    margin-left: 720px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #967C4A;
+    background-color: #967C4A ;
+    text-align: center;
+    color: #7ee24f;
+  }
+  
   /* ------------------ Caixas de Texto -------------------- */ 
   input[type="text"],
   input[type="number"],
@@ -121,7 +134,6 @@ EstiloPadrao.CSS
     margin-top: 10px;
     margin-right: 5px;
   }
-
 
   /* ------------------ Botão -------------------- */
   input[type="submit"] {
@@ -147,25 +159,29 @@ EstiloPadrao.CSS
   /*----------------- Menu --------------*/
   nav {
     position: absolute;
-    top: 112px;
-    width: 250px;
-    height: 900px;
+    top: 104px;
+    width: 200px;
+    height: 100%;
+   
     background-color: #967C4A;
     justify-content: end;
   }
   
   ul {
     list-style-type: none;
-    background-color:  #b08d4c;
+    background-color:  #7ee24f;
+    margin: 0;
+    padding: 0;
   }
   
   li {
     padding: 8px;
-    /*margin-left: 2em;*/
     text-align: justify;
     font-size: 20px;
     font-style: normal;
-    background-color:  #7ee24f;
+    color: black;
+    display: block;
+    text-decoration: none;
   }
    
   a {
@@ -175,10 +191,10 @@ EstiloPadrao.CSS
   
   .FormatacaoOpcaoMenu{
     font-family: Arial, sans-serif;
-    font-size: 25px;
-    font-style: bold;
+    font-size: 23px;
+    font-weight: bold;
     color: black;
-    margin: 0;
+    margin: 8px;
     padding: 0;
     text-align: left;
   }
@@ -190,8 +206,10 @@ EstiloPadrao.CSS
 
   /*Modifica a cor do item do menu quando mouse passa por cima*/
   #li:hover{
-    background-color: #b08d4c;
-  }
+    background-color:#45a049;
+     
+    padding: 8px 16px;
+   }
 
  /*---------------------- Página ----------------------*/
 
@@ -242,4 +260,12 @@ main button {
   align-items: end;
   justify-content: flex-start;
   margin: 0px !important;
+}
+
+.container-homepage{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: solid 1px #967C4A;
+  margin-top: 350px; /*Posicionando conteiner mais em baixo*/
+  left: 50%; /*Alinhamento na horizontal*/
 }
