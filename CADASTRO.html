@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tela de Cadastro</title>
-    <!----------CSS--------->
-    <link rel="stylesheet" href="SheetStyle/EstiloPadrao.CSS"
-</head>
-<body>
-<header>
-    <header class="navbar">
-        <figure>
-            <img src="img/reciclando2.png" id="simrec" class="img-fluid" alt="Simbolo Reciclando">
-        </figure>
-    </header>
-</header>
-<form>
-    <h2>Cadastro de Clientes</h2><br></br>
-    
-    <h3>Faça seu Cadastro </h3>
+        <title>Tela de Cadastro</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!----------CSS--------->
+        <link rel="stylesheet" href="SheetStyle/EstiloPadrao.CSS">
+    </head>
 
-    <input type="text" id="nome" name="nome" placeholder="Nome:"><br><br>
+    <body>
+       
+        <header class="navbar">
+            <figure>
+                <img src="img/reciclando2.png" id="simrec" class="img-fluid" alt="Simbolo Reciclando">
+            </figure>
+        </header>
 
-    <input type="number" id="cpfcnpj" name="cpfcnpj" placeholder="CPF/CNPJ:"><br><br>
+        <form>
+            <h2>Cadastro de Clientes</h2><br></br>
+            
+            <h3>Faça seu Cadastro </h3>
 
-    <input type="number" id="data" name="data" placeholder="Data de Nascimento:"><br><br>
+            <input type="text" id="nome" name="nome" placeholder="Nome:"><br>
 
-    <input type="text" id="endereco" name="endereco" placeholder="Endereço:"><br><br>
+            <input type="number" id="cpfcnpj" name="cpfcnpj" placeholder="CPF/CNPJ:"><br>
 
-    <input type="text" id="postal" name="postal" placeholder="CEP:"><br><br>
+            <input type="number" id="data" name="data" placeholder="Data de Nascimento:"><br>
 
-    <input type="password" id="senha" name="senha" placeholder="Senha:"><br><br>
+            <input type="text" id="endereco" name="endereco" placeholder="Endereço:"><br>
 
-    <input type="radio" id="fidelizado" name="fidelizado" checked label for="fidelizado">Cliente Fidelizado</label><br><br>
+            <input type="text" id="postal" name="postal" placeholder="CEP:"><br>
 
-    <div class="container-entrar">
-        <figure id="folha">
-            <img src="img/folhas.png" id="boneco" class="img-fluid">
-        </figure>
-        <div class="div-entrar">
-            <input type="submit" id="entrar" value="Cadastrar">
-        </div>
-        <figure id="boneco">
-            <img src="img/boneco.png" class="img-fluid">
-        </figure>
-    </div>
-</form>
-</body>
+            <input type="password" id="senha" name="senha" placeholder="Senha:"><br>
+
+            <input type="radio" id="fidelizado" name="fidelizado" checked label for="fidelizado">Cliente Fidelizado</label><br>
+
+            <div class="container-entrar">
+                <figure id="folha">
+                    <img src="img/folhas.png" id="boneco" class="img-fluid">
+                </figure>
+                <div class="div-entrar">
+                    <input type="submit" id="entrar" value="Cadastrar">
+                </div>
+                <figure id="boneco">
+                    <img src="img/boneco.png" class="img-fluid">
+                </figure>
+            </div>
+        </form>
+    </body>
 </html>
