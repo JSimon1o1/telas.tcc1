@@ -70,6 +70,13 @@ EstiloPadrao.CSS
     padding: 10px;
   }
 
+  #formListas{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-left: 15%;
+  }
+
   /* ------------------- Login ------------------  */
   form h2{
     margin: 0 auto;
@@ -109,17 +116,37 @@ EstiloPadrao.CSS
     font-weight: bold;
   }
   
+  .labelLista {
+    display: block;
+    margin-bottom: 5px;
+    color: #361A00;
+    font-weight: 300;
+    word-wrap:break-word;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+  }
+
   /* ------------------ Formatação Label de Informações -------------------- */ 
   #InformacaoLabel{
-    width: 50%;
-    padding: 10px;
-    margin-left: 720px;
+    width: max-content;
+    margin-left: 80%;
     margin-bottom: 20px;
     border-radius: 20px;
     border: 1px solid #967C4A;
     background-color: #967C4A ;
     text-align: center;
     color: #7ee24f;
+    padding: 5px;
+  }
+
+  #InformacaoLabelListas{
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #7ee24f;
+    background-color: #7ee24f ;
+    text-align: center;
+    color: #361A00;
   }
   
   /* ------------------ Caixas de Texto -------------------- */ 
@@ -275,9 +302,21 @@ main button {
 
 .div-voltar{
   display: flex;
+  margin-left: 80%;
   justify-content: right;
-  margin-left: 900px;
 }
+
+#divListaDireita{
+  float: right; 
+  width: 50%; 
+  padding-left: 50px;
+}
+
+#divListaEsquerda{
+  float: left; 
+  width: 50%; 
+}
+
 
 #entrar{
   margin:0px !important;
