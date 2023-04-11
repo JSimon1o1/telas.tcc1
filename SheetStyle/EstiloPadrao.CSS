@@ -1,268 +1,400 @@
 EstiloPadrao.CSS
- 
 
 /* -------------- Cabeçalho ---------------- */
- * {
+* {
   margin: 0;
   padding: 0;
- }
- 
- header {
-    /*----colocar linha preta na parte de cima do header----*/
-    background-color: #967C4A;
-    height: 7rem;
-    color: white;
-  }
- 
-  /* -------------- Corpo ---------------- */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-  }
+}
 
-  header h1 {
-    margin: 0px;
-    text-align: left;
-    font-size: 38px;
-    font-weight: normal;
-    color: white;
-  }
- 
-  /*------------ IMAGEM ANTES DO BUMERBOX NO CABEÇALHO -------------*/
+header {
+  /*----colocar linha preta na parte de cima do header----*/
+  background-color: #967C4A;
+  height: 7rem;
+  color: white;
+}
+
+/* -------------- Corpo ---------------- */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header h1 {
+  margin: 0px;
+  text-align: left;
+  font-size: 38px;
+  font-weight: normal;
+  color: white;
+}
+
+/*------------ IMAGEM ANTES DO BUMERBOX NO CABEÇALHO -------------*/
 /*  header img {
 
   }
   */
 
-  #simrec {
-    margin-top: -25px;
-    margin-left: 30px;
-    height: 10rem;
-  }
+#simrec {
+  margin-top: -25px;
+  margin-left: 30px;
+  height: 10rem;
+}
 
-/*------------ FORMATAÇÃO DOS TÍTULOS -------------*/ 
-  h1 {
-    font-size: 50px;
-    font-weight: normal;
-  }
-  
-  h2{
-    color: #361A00;
-    align-content: center;
-  }
+/*------------ FORMATAÇÃO DOS TÍTULOS -------------*/
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
 
-  h3{
-    font-weight: 300;
-  }
+h2 {
+  color: #361A00;
+  align-content: center;
+}
 
-  /* ------------------- Cadastro ------------------ */
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-  }
+h3 {
+  font-weight: 300;
+}
 
-  #formModal {
-    margin: 0 auto;
-    padding: 10px;
-  }
+/* ------------------- Cadastro ------------------ */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
 
-  #formListas{
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 10px;
-    margin-left: 15%;
-  }
+#formModal {
+  margin: 0 auto;
+  padding: 10px;
+}
 
-  /* ------------------- Login ------------------  */
-  form h2{
-    margin: 0 auto;
-    margin-top: 3em;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
+#formListas {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-left: 15%;
+}
 
-  #cadeado {
-    height: 5rem;
-    margin: 0 auto;
-    display: block;
-  }
+/* ------------------- Login ------------------  */
+form h2 {
+  margin: 0 auto;
+  margin-top: 3em;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#cadeado {
+  height: 5rem;
+  margin: 0 auto;
+  display: block;
+}
 
 
-  #boneco {
-    width: 150px;
-    height: auto;
-    margin: 0px !important;
-  }
+#boneco {
+  width: 150px;
+  height: auto;
+  margin: 0px !important;
+}
 
-  input {
-    background-color: #967C4A;
-    margin-top: 2em;
-  }
+#folhaDescontrometro {
+  width: 100px;
+  height: auto;
+  margin-top: 50px;
+}
 
-  ::placeholder {
-    color: white;
-    text-align: center;
-  }
+#imgQrcode {
+  width: 100px;
+  height: auto;
+}
 
-  label {
-    font-size: larger;
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .labelLista {
-    display: block;
-    margin-bottom: 5px;
-    color: #361A00;
-    font-weight: 300;
-    word-wrap:break-word;
-    font-family: Arial, sans-serif;
-    font-size: 23px;
-  }
+input {
+  background-color: #967C4A;
+  margin-top: 2em;
+}
 
-  /* ------------------ Formatação Label de Informações -------------------- */ 
-  #InformacaoLabel{
-    width: max-content;
-    margin-left: 80%;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    border: 1px solid #967C4A;
-    background-color: #967C4A ;
-    text-align: center;
-    color: #7ee24f;
-    padding: 5px;
-  }
+::placeholder {
+  color: white;
+  text-align: center;
+}
 
-  #InformacaoLabelListas{
-    width: 40%;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    border: 1px solid #7ee24f;
-    background-color: #7ee24f ;
-    text-align: center;
-    color: #361A00;
-  }
-  
-  /* ------------------ Caixas de Texto -------------------- */ 
-  input[type="text"],
-  input[type="number"],
-  input[type="date"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    border: 1px solid #967C4A;
-  }
+label {
+  font-size: larger;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.labelLista {
+  display: block;
+  margin-bottom: 5px;
+  color: #361A00;
+  font-weight: 300;
+  word-wrap: break-word;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+}
+
+/* ------------------ Formatação Label de Informações -------------------- */
+#InformacaoLabel {
+  width: max-content;
+  margin-left: 80%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #967C4A;
+  background-color: #967C4A;
+  text-align: center;
+  color: #7ee24f;
+  padding: 5px;
+}
+
+#InformacaoLabelCliente {
+  width: max-content;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #967C4A;
+  background-color: #967C4A;
+  text-align: center;
+  color: #7ee24f;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#InformacaoLabelListas {
+  width: 40%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+}
+
+#InformacaoUltimasEntregas {
+  width: 90%;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+  font-size: 20px;
+}
+
+#InformacaoValor {
+  width: 90%;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+}
+
+#InformacaoExtrair {
+  width: 30%;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+}
+
+#InformacaoDescontrometro {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #573C06;
+  background-color: #573C06;
+  text-align: center;
+  color: #7ee24f;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#descontometroInterno {
+  width: 75%;
+  height: 60%;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 8%;
+}
+
+#InformacaoFidelizacao {
+  text-align: center;
+  color: #967C4A;
+  margin-top: 20px;
+}
+
+#Informacaodevolucoes {
+  text-align: center;
+  color: #967C4A;
+  margin-top: 40px;
+  font-size: 19px;
+}
+
+#InformacaoCategoria {
+  text-align: left;
+  color: #361A00;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+#InformacaoCadastrar {
+  width: 30%;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+}
+
+#InformacaoValorReceber {
+  width: 90%;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+  margin-top: 85px;
+  margin-inline: auto;
+}
+
+#InformacaoDevolucaoCategoria {
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid #7ee24f;
+  background-color: #7ee24f;
+  text-align: center;
+  color: #361A00;
+  margin-top: 35px;
+}
+
+#qrcode {
+  color: #361A00;
+  font-weight: bold;
+}
+
+/* ------------------ Caixas de Texto -------------------- */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #967C4A;
+}
 
 /* ------------------- Checkbox ------------------ */
-  input[type="checkbox"] {
-    margin-top: 10px;
-    margin-right: 5px;
-  }
+input[type="checkbox"] {
+  margin-top: 10px;
+  margin-right: 5px;
+}
 
-  /* ------------------ Botão -------------------- */
-  input[type="submit"] {
-    background-color: #b3ec3a;
-    color: #361A00;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    margin-left: 10em;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
- 
-  
-  /* ------------------ Botão de Voltar-------------------- */
-  .inputVoltar[type="submit"] {
-    background-color: #F0B3B3;
-    color: #361A00;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    margin-left: 10em;
-    cursor: pointer;
-  }
-  
-  .inputVoltar[type="submit"]:hover {
-    background-color: #de8080;
-  }
+/* ------------------ Botão -------------------- */
+input[type="submit"] {
+  background-color: #b3ec3a;
+  color: #361A00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10em;
+  cursor: pointer;
+}
 
-  
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
-  /*--------------Img------------------*/
-  /*figure {
+
+/* ------------------ Botão de Voltar-------------------- */
+.inputVoltar[type="submit"] {
+  background-color: #F0B3B3;
+  color: #361A00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10em;
+  cursor: pointer;
+}
+
+.inputVoltar[type="submit"]:hover {
+  background-color: #de8080;
+}
+
+
+
+/*--------------Img------------------*/
+/*figure {
 
   }
 
 
   /*----------------- Menu --------------*/
-  nav {
-    position: absolute;
-    top: 104px;
-    width: 200px;
-    height: 100%;
-   
-    background-color: #967C4A;
-    justify-content: end;
-  }
-  
-  ul {
-    list-style-type: none;
-    background-color:  #7ee24f;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    padding: 8px;
-    text-align: justify;
-    font-size: 20px;
-    font-style: normal;
-    color: #361A00;
-    display: block;
-    text-decoration: none;
-  }
-   
-  a {
-    color: #361A00;
-    text-decoration: none;
-  }
-  
-  .FormatacaoOpcaoMenu{
-    font-family: Arial, sans-serif;
-    font-size: 23px;
-    color: #361A00;
-    margin: 8px;
-    padding: 0;
-    text-align: left;
-  }
+nav {
+  position: absolute;
+  top: 104px;
+  width: 200px;
+  height: 100%;
 
-  .FormatacaoIconeMenu{
-		width: 400px;
-    height: 100px;
-  }
+  background-color: #967C4A;
+  justify-content: end;
+}
 
-  /*Modifica a cor do item do menu quando mouse passa por cima*/
-  #li:hover{
-    background-color:#45a049;
-     
-    padding: 8px 16px;
-   }
+ul {
+  list-style-type: none;
+  background-color: #7ee24f;
+  margin: 0;
+  padding: 0;
+}
 
- /*---------------------- Página ----------------------*/
+li {
+  padding: 8px;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  color: #361A00;
+  display: block;
+  text-decoration: none;
+}
 
- main h2 {
+a {
+  color: #361A00;
+  text-decoration: none;
+}
+
+.FormatacaoOpcaoMenu {
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  color: #361A00;
+  margin: 8px;
+  padding: 0;
+  text-align: left;
+}
+
+.FormatacaoIconeMenu {
+  width: 400px;
+  height: 100px;
+}
+
+/*Modifica a cor do item do menu quando mouse passa por cima*/
+#li:hover {
+  background-color: #45a049;
+
+  padding: 8px 16px;
+}
+
+/*---------------------- Página ----------------------*/
+
+main h2 {
   margin-left: 13em;
 }
 
@@ -271,9 +403,7 @@ main ul {
   background-color: rgb(255, 255, 255);
 }
 
-main p {
-
-}
+main p {}
 
 main form {
   margin-left: 90em;
@@ -288,51 +418,122 @@ main button {
   align-self: center;
 }
 
-.container-entrar{
+.container-entrar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-bottom: solid 1px #967C4A;
 }
 
-.div-entrar{
+.container-entregas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: solid 1px #967C4A;
+  width: 300px;
+}
+
+.container-fidelizacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: solid 1px #967C4A;
+  width: 300px;
+  margin-inline: auto;
+}
+
+.div-entrar {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-.div-voltar{
+.div-voltar {
   display: flex;
   margin-left: 80%;
   justify-content: right;
 }
 
-#divListaDireita{
-  float: right; 
-  width: 50%; 
+#divListaDireita {
+  float: right;
+  width: 50%;
   padding-left: 50px;
 }
 
-#divListaEsquerda{
-  float: left; 
-  width: 50%; 
+#divListaEsquerda {
+  float: left;
+  width: 50%;
 }
 
-
-#entrar{
-  margin:0px !important;
+#divListaMeio {
+  float: none;
+  width: 50%;
 }
 
-#folha{
+#entrar {
+  margin: 0px !important;
+}
+
+#folha {
   display: flex;
   align-items: end;
   justify-content: flex-start;
   margin: 0px !important;
 }
 
-.container-homepage{
+.container-homepage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-bottom: solid 1px #967C4A;
-  margin-top: 350px; /*Posicionando conteiner mais em baixo*/
-  left: 50%; /*Alinhamento na horizontal*/
+  margin-top: 350px;
+  /*Posicionando conteiner mais em baixo*/
+  left: 50%;
+  /*Alinhamento na horizontal*/
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 230px;
+}
+
+.linhaDevolucoes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  flex-direction: row;
+  align-content: center;
+}
+
+.linhaDescontrometro {
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna-40a {
+  width: 40%;
+  margin-left: 0%;
+}
+
+.coluna-40b {
+  width: 40%;
+}
+
+.coluna-20 {
+  width: 20%;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linha .categoria {
+  font-weight: bold;
+}
+
+.coluna-50 {
+  width: 50%;
 }
